@@ -4,5 +4,6 @@ com\iesVda\TestMongo\awards.class
 com\iesVda\TestMongo\tomatoes.class
 com\iesVda\TestMongo\imdb.class
 com\iesVda\TestMongo\FilmDao.class
+com\iesVda\TestMongo\FilmDao2.class
 com\iesVda\TestMongo\movies.class
 com\iesVda\TestMongo\DaoInterface.class

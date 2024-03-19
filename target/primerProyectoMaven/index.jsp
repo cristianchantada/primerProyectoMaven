@@ -35,27 +35,34 @@
 	filmCast.add("Alfredo García");
 	filmCast.add("Alcalde");
 	newFilm.setCast(filmCast);
-	newFilm.setTitle("O que arde");
+	
+	newFilm.setTitle("Lo que echa fuego");
 	newFilm.setPlot("A película transcorre na montaña luguesa");
 	newFilm.setRuntime(135);
+	
 	theDirectorsGroup.add("Oliver Laxe");
 	theDirectorsGroup.add("Amador Arias");
 	theDirectorsGroup.add("Tony Scott");
 	theDirectorsGroup.add("Juanito Valderrama");
 	newFilm.setDirectors(theDirectorsGroup);
+	
 	newFilm.setPoster("http://iesvaldoasma.edu.xunta/images");
 	newFilm.setFullplot("Benedicta e a nai de Amador, un pirómano");
+	
 	filmLanguages.add("Galego");
 	newFilm.setLanguages(filmLanguages);
+	
+	filmGenres.add("drama");
+	filmGenres.add("ecologism");
 	newFilm.setGenres(filmGenres);
 
 	filmImdb.setRating(4.5);
 	filmImdb.setVotes(758);
 	filmImdb.setId(9999);
-
 	newFilm.setImdbReference(filmImdb);
 
 	aFilmDao.save(newFilm);
+	
 	%>
 </body>
 </html>

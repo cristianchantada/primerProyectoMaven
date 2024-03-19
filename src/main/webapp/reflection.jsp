@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-
 <%@ page import="com.iesVda.TestMongo.imdb"%>
 <%@ page import="com.iesVda.TestMongo.movies"%>
 <%@ page import="java.lang.reflect.*"%>
